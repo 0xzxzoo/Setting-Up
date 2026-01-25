@@ -1,1 +1,18 @@
-# Setting-Up
+### ⬛ Projet : Setting Up
+
+**Le Défi :** Trouver le plus grand carré vide possible dans une carte contenant des obstacles, le plus rapidement possible.
+
+**Utilisation :** Langage C, Makefile, Algorithmique.
+
+* **Algorithme :** Analyse de la carte en un seul passage (**O(n)**). Chaque case stocke la taille du carré possible en fonction de ses carré-voisins (haut, gauche, haut-gauche).
+* **Performance :** Gestion optimisée de la mémoire et pour lire rapidement des fichiers de plusieurs méga-octets.
+
+**Exemple de résultat :**
+
+Input (Carte vide avec obstacles 'o') :    Output (Le plus grand carré est 'x') :
+...........................               .....xxxxx.................
+....o......................               ....oxxxxx.................
+............o..............               .....xxxxx..o..............
+...........................               .....xxxxx.................
+...........................               .....xxxxx.................
+.......o...................               .......o...................
